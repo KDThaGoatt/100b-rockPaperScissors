@@ -24,7 +24,15 @@ def playerChoice():
   1: paper
   2: scissors
   '''
-  return value
+  pChoice = str(input("Make your choice, enter \"Rock\", \"Paper\" or \"Scissors\": "))
+  if pChoice == "Rock":
+    return 0
+  elif pChoice == "Paper":
+    return 1
+  elif pChoice == "Scissors":
+    return 2
+  else:
+    print("Invalid Input")
 
 
 if __name__ == "__main__":

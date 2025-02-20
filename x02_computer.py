@@ -9,12 +9,13 @@ output:
 2 : scissors
 """
 
+import random
+
 def computerChoice():
+
+  cChoice = random.randint(0,2)
   
-  
-  
-  
-  return value
+  return cChoice
 
 
 if __name__ == "__main__":

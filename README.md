@@ -8,7 +8,7 @@ Assignments:
 ##### 1. Player Choice
 Create a function that asks a player for their choice
 ##### 2. Computer Choice
-Create a funcion that creates a random choice for the computer
+Create a function that creates a random choice for the computer
 ##### 3. Determine the winner
 Create a function that takes the computer and player choices and determines who the winner is.
 ##### 4. Full Game
